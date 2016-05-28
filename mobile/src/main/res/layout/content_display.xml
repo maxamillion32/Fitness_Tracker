@@ -9,21 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="me.tafari.developer.fitnesstracker.MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:context="me.tafari.developer.fitnesstracker.DisplayActivity"
+    tools:showIn="@layout/activity_display">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Track"
-        android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="display"/>
 </RelativeLayout>
